@@ -1,0 +1,62 @@
+body{
+    background-color: aliceblue;
+    color: #555555;
+
+    
+    font: normal 16px Arial, Helvetica, sans-serif; 
+    line-height: 0.9cm;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box-1{
+    background-color: yellowgreen;
+    color: rgb(240,238,238);
+    
+
+    /* border-right: 5px brown solid ;
+    border-left: 5px brown solid ;
+    border-top: 5px brown solid;
+    border-bottom: 5px brown solid;
+ */
+
+ /* border: 5px brown solid; */
+ /* border width: 7px; */
+ /* border-bottom-width: 10px;
+ border-top-style: dotted;
+  */
+ 
+  padding: 20px;
+}
+
+.box-2{
+
+    border: 5px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    background-image: linear-gradient(red,yellow,green);
+}
+
+#Categories{
+    border: 5px rgb(176,51,51) solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#Categories h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+
+    color: green;
+}
